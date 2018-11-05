@@ -47,7 +47,7 @@ namespace System_Check
 
         public void saveFunction()
         {
-            string location = @"c:\\temp\" + DateTime.Now.ToString("ddMMyy") + @"\";
+            string location = @"d:\\temp\" + DateTime.Now.ToString("ddMMyy") + @"\";
             bool folderExists = System.IO.Directory.Exists(location);
             if (!folderExists)
                 System.IO.Directory.CreateDirectory(location);
